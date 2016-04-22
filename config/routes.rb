@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   get "hi_tim", to: "friend_pages#hi_tim"
   get "hi_jared", to: "friend_pages#hi_jared"
+  get "hi_matthew", to: "friend_pages#hi_matthew"
 end
