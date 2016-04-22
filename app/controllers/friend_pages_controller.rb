@@ -1,0 +1,3 @@
+class FriendPagesController < ApplicationController
+
+end
