@@ -29,7 +29,7 @@
 
   .exclamation-mark
     .pad-letter-left
-    = render 'exclamation_mark'
+    = render partial: 'common/letter', locals: {letter: letter_arrays["!"]}
     .pad-letter-right
 
   .pad-border-right
