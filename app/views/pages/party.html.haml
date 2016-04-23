@@ -1,16 +1,40 @@
 .party
   .pad-border-top
   .pad-border-left
+
+  .pad-letter-left
   = render 'p'
-  = render 'space'
+  .pad-letter-right
+  .pad-letter-between
+
+  .pad-letter-left
   = render 'a'
-  = render 'space'
+  .pad-letter-right
+  .pad-letter-between
+
+  .pad-letter-left
   = render 'r'
-  = render 'space'
+  .pad-letter-right
+  .pad-letter-between
+
+  .pad-letter-left
   = render 't'
-  = render 'space'
+  .pad-letter-right
+  .pad-letter-between
+
+  .pad-letter-left
   = render 'y'
-  = render 'space'
-  = render 'exclamation_mark'
+  .pad-letter-right
+  .pad-letter-between
+
+  .exclamation-mark
+    .pad-letter-left
+    = render 'exclamation_mark'
+    .pad-letter-right
+
   .pad-border-right
   .pad-border-bottom
+
+
+.next-party-link
+  = link_to "next party >>", root_path
