@@ -1,0 +1,49 @@
+.party
+  .pad-border-top
+  .pad-border-left
+
+  .pad-letter-left
+  = render partial: 'common/letter', locals: {letter: letter_arrays["R"]}
+  .pad-letter-right
+  .pad-letter-between
+
+  .pad-letter-left
+  = render partial: 'common/letter', locals: {letter: letter_arrays["O"]}
+  .pad-letter-right
+  .pad-letter-between
+
+  .pad-letter-left
+  = render partial: 'common/letter', locals: {letter: letter_arrays["S"]}
+  .pad-letter-right
+  .pad-letter-between
+
+  .pad-letter-left
+  = render partial: 'common/letter', locals: {letter: letter_arrays["E"]}
+  .pad-letter-right
+  .pad-letter-between
+
+  .exclamation-mark
+    .pad-letter-left
+    = render 'exclamation_mark'
+    .pad-letter-right
+    .pad-letter-between
+
+  .exclamation-mark
+    .pad-letter-left
+    = render 'exclamation_mark'
+    .pad-letter-right
+    .pad-letter-between
+
+  .exclamation-mark
+    .pad-letter-left
+    = render 'exclamation_mark'
+    .pad-letter-right
+    .pad-letter-between
+
+
+  .pad-border-right
+  .pad-border-bottom
+
+
+.next-party-link
+  = link_to "next party >>", root_path
