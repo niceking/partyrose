@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root "pages#home"
 
   get "party_1", to: "pages#alternate"
+  get "party_2", to: "pages#party"
 
 
   get "hi_tim", to: "friend_pages#hi_tim"
