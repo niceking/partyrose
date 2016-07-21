@@ -1,0 +1,8 @@
+.letter
+  - for row in letter
+    .row
+      - for pixel in row
+        - if pixel.zero?
+          .partyrose
+        - else
+          .partyrose-reverse

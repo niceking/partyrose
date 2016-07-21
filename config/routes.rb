@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get "party_1", to: "pages#alternate"
   get "party_2", to: "pages#party"
+  get "dancefloor", to: "pages#rose"
 
 
   get "hi_tim", to: "friend_pages#hi_tim"

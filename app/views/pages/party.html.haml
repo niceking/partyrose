@@ -3,33 +3,33 @@
   .pad-border-left
 
   .pad-letter-left
-  = render 'p'
+  = render partial: 'common/letter', locals: {letter: letter_arrays["P"]}
   .pad-letter-right
   .pad-letter-between
 
   .pad-letter-left
-  = render 'a'
+  = render partial: 'common/letter', locals: {letter: letter_arrays["A"]}
   .pad-letter-right
   .pad-letter-between
 
   .pad-letter-left
-  = render 'r'
+  = render partial: 'common/letter', locals: {letter: letter_arrays["R"]}
   .pad-letter-right
   .pad-letter-between
 
   .pad-letter-left
-  = render 't'
+  = render partial: 'common/letter', locals: {letter: letter_arrays["T"]}
   .pad-letter-right
   .pad-letter-between
 
   .pad-letter-left
-  = render 'y'
+  = render partial: 'common/letter', locals: {letter: letter_arrays["Y"]}
   .pad-letter-right
   .pad-letter-between
 
   .exclamation-mark
     .pad-letter-left
-    = render 'exclamation_mark'
+    = render partial: 'common/letter', locals: {letter: letter_arrays["!"]}
     .pad-letter-right
 
   .pad-border-right
