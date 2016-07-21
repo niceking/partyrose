@@ -1,16 +1,16 @@
+.main-image {
+
+}
+
+.title {
+  color: red;
+}
+
 .partyrose {
   float: left;
   width: 20px;
   height: 20px;
   background-image: url(image_path("partyrose.gif"));
-  background-size: 20px 20px;
-}
-
-.partyrose-reverse {
-  float: left;
-  width: 20px;
-  height: 20px;
-  background-image: url(image_path("reverse-partyrose.gif"));
   background-size: 20px 20px;
 }
 
