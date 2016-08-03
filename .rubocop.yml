@@ -27,10 +27,12 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
 
+Rails:
+  Enabled: true
+
 # Run rails specific checks
 # https://github.com/bbatsov/rubocop#rails
 AllCops:
-  RunRailsCops: true
   Include:
     # Include important files that don't end in .rb
     - '**/Rakefile'
