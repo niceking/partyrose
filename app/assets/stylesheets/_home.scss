@@ -1,14 +1,49 @@
-.main-image {
+.about-page {
+
+  margin-left: 10%;
+  margin-right: 10%;
+
   width: 80%;
-  padding: 10%;
-}
+  margin-top: 5%;
 
-.title {
-  padding: 10px;
-}
+  .face {
+    display: block;
+    float: left;
+    text-align: center;
 
-.content {
-  padding: 10px;
+    .main-image {
+      width: 75%;
+      border-radius: 100%
+    }
+  }
+
+  .party {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+
+    .party-text {
+      width: 80%;
+    }
+  }
+
+  .column-half.intro {
+    .content {
+      background-color: white;
+      opacity: 0.85;
+      margin: 5% 10%;
+      padding: 10%;
+
+      p {
+        font-weight: bold;
+      }
+    }
+
+    .emoji {
+      font-size: xx-large;
+    }
+  }
 }
 
 .partyrose-reverse {
@@ -43,7 +78,7 @@
 
 .next-party-link {
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
   z-index: 1000;
   a {

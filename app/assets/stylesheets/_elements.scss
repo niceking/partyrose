@@ -1,8 +1,24 @@
+$light-orange: #DEA437;
+$orange: #FF9324;
+$bright-blue: #79FDFE;
+
 body {
   font-family: 'Noto Sans', sans-serif;
+
+  background-image: url(image_path("zigzagbackground.png"));
+  background-repeat: repeat;
 }
 
 * {
   padding:0px;
   margin:0px;
+}
+
+a {
+  text-decoration: none;
+  color: $light-orange;
+
+  &:hover, &:visited {
+    color: $light-orange;
+  }
 }

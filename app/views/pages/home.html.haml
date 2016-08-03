@@ -1,15 +1,41 @@
+.party
+  .pad-border-top
+  .pad-border-left
 
-.column-half
-  = image_tag("rose.jpg", class: "main-image")
-.column-half
-  .title
-    Hello!
-  .content
-    %p
-      Kiaora, I'm Rose Lu! <br> <br>
+  .pad-letter-left
+  = render partial: 'common/letter', locals: {letter: letter_arrays["P"]}
+  .pad-letter-right
+  .pad-letter-between
 
-      I graduated from Canterbury University in 2011 with a Bachelor of Engineering (Hons) in Mechatronics Engineering. Following that I worked as an embedded C developer for 2 years, then made the switch into Ruby on Rails development in 2013. <br> <br>
+  .pad-letter-left
+  = render partial: 'common/letter', locals: {letter: letter_arrays["A"]}
+  .pad-letter-right
+  .pad-letter-between
 
-      I'm interested in working with diverse teams, non hierachical organisations and on projects with social impact. <br> <br>
+  .pad-letter-left
+  = render partial: 'common/letter', locals: {letter: letter_arrays["R"]}
+  .pad-letter-right
+  .pad-letter-between
 
-      Outside of work I'm usually found cycling, yoga-ing, cooking and hanging out.
+  .pad-letter-left
+  = render partial: 'common/letter', locals: {letter: letter_arrays["T"]}
+  .pad-letter-right
+  .pad-letter-between
+
+  .pad-letter-left
+  = render partial: 'common/letter', locals: {letter: letter_arrays["Y"]}
+  .pad-letter-right
+  .pad-letter-between
+
+  .exclamation-mark
+    .pad-letter-left
+    = render partial: 'common/letter', locals: {letter: letter_arrays["!"]}
+    .pad-letter-right
+
+  .pad-border-right
+  .pad-border-bottom
+
+.next-party-link
+  = link_to "about >>", about_path
+  = link_to "contact >>", root_path
+  = link_to "next party >>", party_path
