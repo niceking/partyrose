@@ -14,6 +14,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'haml'
 
+group :production do
+  gem 'rails_12factor'
+end
+
 group :development, :test do
   gem 'byebug'
   gem "rubocop", "~> 0.40.0", require: false
