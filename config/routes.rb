@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   get "hi_jared", to: "friend_pages#hi_jared"
   get "hi_matthew", to: "friend_pages#hi_matthew"
   get "hi_merrin", to: "friend_pages#hi_merrin"
+  get "pokenerds", to: "friend_pages#pokenerds"
 end
